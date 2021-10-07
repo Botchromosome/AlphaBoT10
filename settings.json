@@ -1,4 +1,7 @@
 {
+        "self_mode": false,
+	"autobio": true,
+	"antihidetag": true,
 	"prefix": ".",
 	"language":"ind",
 	"ownerNumber": "6285800724142",
