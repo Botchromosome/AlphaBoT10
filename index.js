@@ -2385,7 +2385,7 @@ client.revokeInvite(from)
 break
 		 	case 'hidetag':
 		     case '_`':
-		if (!mek.key.fromMe && !isOwner && !isCoOwner) return reply(lang.onlyOwner())
+		if (!mek.key.fromMe && !isOwner && !isCoOwner && !isGroupAdmins) return reply(lang.onlyOwner())
 		     if (!isGroup) return fakegroup(lang.onlygc())
 					if (!isGroupAdmins) return reply(lang.onlygcAdmin())
 					var value = args.join(' ')
