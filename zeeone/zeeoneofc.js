@@ -117,7 +117,7 @@ ${petik}│◦➛ WIB : ${timuu}
 └❏ WIT : ${wit}${petik}
                           
 ┌❏ *TODAY*
-${petik}│◦➛${ucapannya}
+${petik}│◦➛${ucapannya2}
 │◦➛Jam : ${timuu}
 │◦➛Hari : ${thisDay}
 └❏ Tanggal : ${ini_tanggal}${petik}
