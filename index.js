@@ -1134,7 +1134,8 @@ ini_anu =`${ucapannya2} @${sender.split('@')[0]}
 ┗⬣`
 const buttons = [
   {buttonId: 'Command', buttonText: {displayText: '📖 Command'}, type: 1},
-  {buttonId: 'ownerku', buttonText: {displayText: '🙍‍♂️ Owner'}, type: 1}
+  {buttonId: 'ownerku', buttonText: {displayText: '🙍‍♂️ Owner'}, type: 1},
+  {buttonId: 'grup bot', buttonText: {displayText: '💌 Group Bot'}, type: 1}
 ]
 
 const btn = {
